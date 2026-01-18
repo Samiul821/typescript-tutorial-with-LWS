@@ -17,33 +17,56 @@
 
 // console.log(playerName);
 
+let a: string;
+
+let b: number;
+
+a = "Samiul";
+
+b = 18;
+
 // FUNTION
 
-// function multiply(a : number, b : number) {
-//     return a * b
-// }
+function multiply(a: number, b: number) {
+  return a * b;
+}
 
 // console.log(multiply("samiul", 4));
 
 // ARRAY
-// let fruts = []
+let fruts = [];
 
-// fruts.push(34)
-// fruts.push("Samiul")
+fruts.push(34);
+fruts.push("Samiul");
 
 // console.log(fruts);
 
-// let mixed = ['apple', 5, true, {}]
+let mixed = ["apple", 5, true, {}];
 
-// mixed.push({
-//     name: 'samiul'
-// })
+mixed.push({
+  name: "samiul",
+});
+
+let a2: string[] = [];
+let b2: number[] = [];
+
+a2.push("Samiul");
+b2.push(18);
+
+// normal variable
+let b3: string | number;
+
+// union array
+let a3: (string | number)[] = [];
+
+b3 = "Samiul";
+a3.push("Samiul", 18);
 
 // OBJECT
-// let person = {
-//     name: "Mashrafi",
-//     age: 35,
-//     isCaptain: true
-// }
+let person = {
+  name: "Mashrafi",
+  age: 35,
+  isCaptain: true,
+};
 
 // person.country = "Bangladesh"
